@@ -1,5 +1,12 @@
 function firstChar(text) {
   // your code here
+	if(!text){
+		return '';
+	}
+	let extractLetter = text.charAt(0);
+	return extractLetter;
+	
+	
 }
 
 // Do not change the code below
