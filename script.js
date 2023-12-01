@@ -3,7 +3,7 @@ function firstChar(text) {
 	if(!text){
 		return '';
 	}
-	let extractLetter = text.charAt(0);
+	let extractLetter = text[0];
 	return extractLetter;
 	
 	
